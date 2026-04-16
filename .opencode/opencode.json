@@ -19,19 +19,20 @@
       }
     }
   },
+  "permission": {
+    "websearch": "allow"
+  },
   "plugin": [
+    "opencode-froggy", // https://github.com/smartfrog/opencode-froggy
     "opencode-agent-skills",
     "superpowers@git+https://github.com/obra/superpowers.git",
-    "opencode-beads"],
+    "opencode-beads"
+  ],
   "mcp": {
 
     "github": {
       "type": "local",
       "command": ["npx", "-y", "@modelcontextprotocol/server-github"]
-    },
-    "google-search": {
-      "type": "local",
-      "command": ["npx", "-y", "@modelcontextprotocol/server-google-search"]
     },
     "sequential-thinking": {
       "type": "local",
